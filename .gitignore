@@ -1,0 +1,22 @@
+# Xcode
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData
+.DS_Store
+*.ipa
+*.dSYM.zip
+
+# Build artifacts
+build/
+*.framework
+*.a
+*.so
+
+# Package Manager
+.swiftpm/
+Package.resolved
+
+# Local build cache
+.build/
