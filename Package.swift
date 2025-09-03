@@ -10,23 +10,23 @@ let package = Package(
     products: [
         .library(
             name: "VLCKit",
-            targets: ["VLCKitSPM"]
+            targets: ["VLCKit"]
         )
     ],
     targets: [
         .target(
-            name: "VLCKitSPM",
+            name: "VLCKit",
             dependencies: ["MobileVLCKit"],
-            path: "Sources/VLCKitSPM"
+            path: "Sources/VLCKit"
         ),
         .binaryTarget(
             name: "MobileVLCKit",
             path: "MobileVLCKit.xcframework"
         ),
         .testTarget(
-            name: "VLCKitSPMTests",
-            dependencies: ["VLCKitSPM"],
-            path: "Tests/VLCKitSPMTests"
+            name: "VLCKitTests",
+            dependencies: ["VLCKit"],
+            path: "Tests/VLCKitTests"
         )
     ],
     swiftLanguageVersions: [.v5]
