@@ -21,7 +21,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MobileVLCKit",
-            path: "MobileVLCKit.xcframework"
+            url: "https://github.com/rsalesas/VLCKit/releases/download/3.6.4/MobileVLCKit.xcframework.zip",
+            checksum: "8c47c9c819a6a055828affa1d82e42cf19df986023470dad825e6d69d8af90d8"
         ),
         .testTarget(
             name: "VLCKitTests",
