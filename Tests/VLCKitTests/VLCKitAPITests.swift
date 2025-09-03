@@ -1,5 +1,5 @@
 import XCTest
-import VLCKitSPM
+import VLCKit
 
 final class VLCKitAPITests: XCTestCase {
     
