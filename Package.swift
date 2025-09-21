@@ -29,7 +29,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TVVLCKit",
-            url: "https://github.com/rsalesas/VLCKit/releases/download/3.6.5/TVVLCKit.xcframework.zip",
+            url: "https://github.com/rsalesas/VLCKit/releases/download/3.6.6/TVVLCKit.xcframework.zip",
             checksum: "f8946e757cd920b359869cc487d9d16ae1eda39b89d9ffdce1b8a1f128033012"
         ),
         .testTarget(
